@@ -1,9 +1,5 @@
-﻿namespace ClassTime;
+﻿using ClassTime;
 
-class Program
-{
-    static void Main()
-    {
         try
         {
             var t1 = new Time();
@@ -42,4 +38,4 @@ class Program
         {
             Console.WriteLine($"Error: {ex.Message}");
         }
-        
+ 
